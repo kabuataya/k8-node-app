@@ -21,7 +21,7 @@ router.get('/', function(req, res, next) {
 }
 
   
-  res.render('index', { title: 'Sphinx Project',
+  res.render('index', { title: 'K8 Nodes',
    hostn: hostname,
    ipadd: addresses,
    ostype: os_type,
