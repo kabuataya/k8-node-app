@@ -1,6 +1,6 @@
 FROM node:latest
 
-MAINTAINER Hany Michael
+MAINTAINER Karam Abuataya
 
 ENV NODE_ENV=production
 ENV PORT=3000
