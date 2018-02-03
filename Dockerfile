@@ -1,7 +1,7 @@
 FROM node:latest
 
-MAINTAINER Karam Abuataya
 
+LABEL DEVELOPER="Karam Abuataya" EMAIL="kabuataya@gmail.com" VERSION="1.0"
 ENV NODE_ENV=production
 ENV PORT=3000
 ENV environment=prod
